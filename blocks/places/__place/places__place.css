@@ -19,22 +19,19 @@
   }
 }
 
-@media screen and (max-width: 1024px) {
-  .places__place {}
+@media screen and (max-width: 768px) {
+  .places__place {
+    grid-template-columns: 340px 1fr;
 
-  @media screen and (max-width: 768px) {
-    .places__place {
-      grid-template-columns: 340px 1fr;
-
-      margin-bottom: 25px;
-    }
+    margin-bottom: 25px;
   }
+}
 
-  @media screen and (max-width: 639px) {
-    .places__place {
-      display: flex;
-      flex-direction: column;
-      gap: 0;
-      margin-bottom: 50px;
-    }
+@media screen and (max-width: 639px) {
+  .places__place {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    margin-bottom: 50px;
   }
+}

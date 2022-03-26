@@ -19,11 +19,12 @@
     grid-column: 1;
     margin-bottom: 25px;
   }
+}
 
-  @media screen and (max-width: 330px) {
-    .places__paragraph {
-      width: 90%;
-      margin: auto;
-      margin-bottom: 25px;
-    }
+@media screen and (max-width: 330px) {
+  .places__paragraph {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 25px;
   }
+}
