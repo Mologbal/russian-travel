@@ -1,0 +1,29 @@
+.places__paragraph {
+  font-size: 18px;
+  line-height: 163%;
+  margin: 0;
+  grid-column: 2;
+  margin-bottom: -22px;
+}
+
+.places__paragraph:last-of-type {
+  margin-bottom: 0;
+}
+
+
+
+
+@media screen and (max-width: 639px) {
+  .places__paragraph {
+    width: 90%;
+    grid-column: 1;
+    margin-bottom: 25px;
+  }
+
+  @media screen and (max-width: 330px) {
+    .places__paragraph {
+      width: 90%;
+      margin: auto;
+      margin-bottom: 25px;
+    }
+  }
