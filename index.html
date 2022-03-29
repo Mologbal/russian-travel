@@ -6,22 +6,26 @@
   <link rel="stylesheet" href="./pages/index.css">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Путешествия по России</title>
 </head>
 
-<body>
-  <main class="page">
-    <header class="header">
-      <img class="header__logo" alt="Логотип Россия" src="./images/header-logo.svg">
-      <nav class="header__lang-box">
+<body class="page">
+  <header class="header">
+    <img class="header__logo" alt="Логотип Россия" src="./images/header-logo.svg">
+    <ul class="header__lang-box">
+      <li>
         <a href="#" class="header__lang-link header__lang-link_active link">Ru</a>
+      </li>
+      <li>
         <a href="#" class="header__lang-link link">En</a>
-      </nav>
-    </header>
+      </li>
+    </ul>
+  </header>
+  <main>
     <section class="lead">
       <h1 class="lead__title">Путешествия по России</h1>
       <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
-      <img class="lead__image" alt="Путь в поезде" src="./images/lead-polka.jpg">
+      <img class="lead__image" alt="Спящая женщина на нижней полке поезда" src="./images/lead-polka.jpg">
       <p class="lead__caption">ваша полка — верхняя</p>
     </section>
 
@@ -34,11 +38,11 @@
         мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной
         стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.</p>
       <ul class="intro__list">
-        <li>Часовых поясов 11</li>
-        <li>Объектов природного наследия ЮНЕСКО 12</li>
-        <li>Объектов культурного наследия ЮНЕСКО 16</li>
-        <li>Природных заповедников 105</li>
-        <li>Аэропортов 241</li>
+        <li><span class="intro__bold">Часовых поясов</span> 11</li>
+        <li><span class="intro__bold">Объектов природного наследия ЮНЕСКО</span> 12</li>
+        <li><span class="intro__bold">Объектов культурного наследия ЮНЕСКО</span> 16</li>
+        <li><span class="intro__bold">Природных заповедников</span> 105</li>
+        <li><span class="intro__bold">Аэропортов</span> 241</li>
       </ul>
     </section>
 
@@ -91,7 +95,7 @@
           накрывает апатия. Но ваша мечта увидеть северное сияние начинает сбываться с билетом
           в Мурманск.</p>
       </div>
-      <div class="places__place">
+      <div class="places__place places__place_space">
         <h2 class="places__title">Алтай</h2>
         <div class="places__website">
           <p class="places__url-heading">URL</p>
@@ -107,7 +111,7 @@
           разнообразие местной флоры и фауны. По лесам Алтая бродят лоси, над хребтами летают орлы, а на равнинах
           пасутся косули. И знаменитые манулы — тоже обитатели Алтайского края.</p>
       </div>
-      <div class="places__place">
+      <div class="places__place places__place_space">
         <h2 class="places__title">Зимний Байкал</h2>
         <div class="places__website">
           <p class="places__url-heading">URL</p>
@@ -138,24 +142,26 @@
           в паре метров от земли помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.</p>
       </div>
     </section>
+    <a href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank" class="cover__link link">
+      <section class="cover">
+        <h2 class="cover__title">До Байкала «на собаках»</h2>
+        <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на
+          электричках.
+        </p>
+      </section>
+    </a>
+  </main>
 
-    <section class="cover">
-      <h2 class="cover__title">До Байкала «на собаках»</h2>
-      <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.
-      </p>
-      <a href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank" class="cover__link link"></a>
-    </section>
-
-    <footer class="footer">
-      <nav class="footer__links">
-        <a href="https://yandex.ru/maps" target="_blank" class="footer__link link">Карты</a>
-        <a href="https://yandex.ru/pogoda" target="_blank" class="footer__link link">Погода</a>
-        <a href="https://rasp.yandex.ru" target="_blank" class="footer__link link">Расписание</a>
-        <a href="https://calendar.yandex.ru" target="_blank" class="footer__link link">Календарь</a>
-        <a href="https://travel.yandex.ru" target="_blank" class="footer__link link">Путешествия</a>
-      </nav>
-      <p class="footer__copyright">© 2020. Кушуков Руслан</p>
-    </footer>
+  <footer class="footer">
+    <nav class="footer__links">
+      <a href="https://yandex.ru/maps" target="_blank" class="footer__link link">Карты</a>
+      <a href="https://yandex.ru/pogoda" target="_blank" class="footer__link link">Погода</a>
+      <a href="https://rasp.yandex.ru" target="_blank" class="footer__link link">Расписание</a>
+      <a href="https://calendar.yandex.ru" target="_blank" class="footer__link link">Календарь</a>
+      <a href="https://travel.yandex.ru" target="_blank" class="footer__link link">Путешествия</a>
+    </nav>
+    <p class="footer__copyright">© 2020. Кушуков Руслан</p>
+  </footer>
   </main>
 </body>
 

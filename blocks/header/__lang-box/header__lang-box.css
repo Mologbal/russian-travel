@@ -1,0 +1,15 @@
+.header__lang-box {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(2, min-content);
+  grid-template-rows: min-content;
+  gap: 18px;
+  margin-top: 18px;
+  margin-bottom: 6px;
+}
+
+@media screen and (max-width: 320px) {
+  .header__lang-box {
+    margin-top: 14px;
+  }
+}
